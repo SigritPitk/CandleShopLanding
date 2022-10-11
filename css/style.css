@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url(../images/intro.jpeg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #936b44a6;
+    padding: 2rem;
+    color: #4a2812;
+    border: 2px solid #936b44;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.intro-text{
+    height: 250px;
+    margin-top: -10px;
+    background-color: #936c44;
+    color: #1e170f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(30% 4%, 100% 0, 100% 43%, 100% 100%, 71% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);}
+
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url(../images/packaging.webp);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #30362796;
+    padding: 2rem;
+    color: #ac6713;
+    border: 2px solid #303627;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.packaging-text{
+    height: 350px;
+    background-color: #aa835c;
+    color: #303627;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url(../images/tutorial.webp);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #94a975a2;
+    padding: 2rem;
+    color: #45463a;
+    border: 2px solid #94a975;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    height: 150px;
+    background-color: #69765e;
+    color: #45463a;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a{
+    color: #45463a;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    color: #d3c09e;
+    transform: scale(1.2);
+}
