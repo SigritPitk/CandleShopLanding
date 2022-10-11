@@ -40,14 +40,14 @@ body{
 
 .intro-text{
     height: 250px;
-    margin-top: -10px;
+    margin-top: -23px;
     background-color: #936c44;
     color: #1e170f;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 15rem;
-    clip-path: polygon(30% 4%, 100% 0, 100% 43%, 100% 100%, 71% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);}
+    clip-path: polygon(38% 9%, 100% 0, 100% 43%, 100% 100%, 71% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);}
 
 .intro-text__textbox h3{
     font-size: 2rem;
